@@ -54,7 +54,7 @@ if __name__ == "__main__":
             sound_my_code(code, typed)
         elif select == '2':
             while 1:
-                sound_my_code(translate_to_morsecode("SOS"))
+                sound_my_code(translate_to_morsecode("SOS"), "SOS")
                 time.sleep(1.0)
         elif select == '3':
             is_running = False
